@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Routine Management System</h1>
+    <form action="backend.php">
+        <div>
+            <label for="Course:">Department:</label>
+            <select name="MyCourse" id="Course:">
+                <option value="Selectone" selected>....SelectOne....</option>
+                <option value="BTech in C.S.E">COMPUTER SCIENCE & ENGINEERING</option>
+                <option value="BTech in I.T">INFORMATION TECHNOLOGY</option>
+                <option value="BTech in E.E">ELECTRONICS COMMUNICATION ENGINEERING </option>
+                <option value="B.Sc in Biotech">ELECTRICAL ENGINEERING</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="SEM:">Semester:</label>
+            <select name="Semester" id="SEM:">
+                <option value="Selectone" selected>....SelectOne....</option>
+                <option value="First Semester">1st </option>
+                <option value="Second Semester">2nd</option>
+                <option value="Third Semester">3rd</option>
+                <option value="Fourth Semester">4th</option>
+                <option value="Fifth Semester">5th</option>
+                <option value="Sixth Semester">6th</option>
+                <option value="Seventh Semester">7th</option>
+                <option value="Eighth Semester">8th</option>
+            </select>
+        </div>
+        </br>
+        <h2>TIME TABLE</h2>
+        <table border="5" cellspacing="0" align="center">
+            <!--<caption>Timetable</caption>-->
+            <tr>
+                <td align="center" height="50" width="100"><br>
+                    <b>Day/Period</b></br>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b>I<br>9:30-10:30</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b>II<br>10:30-11:30</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b><br>11:30-11:45</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b>III<br>11:45-12:45</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b>IV<br>12:45-1:45</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b><br>1:45-2:30</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b>V<br>2:30-3:30</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b>VII<br>3:30-4:30</b>
+                </td>
+                <td align="center" height="50" width="100">
+                    <b>VIII<br>4:30-5:30</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Monday</b>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RGH/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td rowspan="6" align="center" height="10">
+                    <h2>B<br>R<br>E<br>A<br>K</h2>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td rowspan="6" align="center" height="10">
+                    <h2>L<br>U<br>N<br>C<br>H</h2>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Tuesday</b>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RGH/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Wednesday</b>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RGH/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Thursday</b>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RGH/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Friday</b>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RGH/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+                <td align="center" height="50">
+                    <div>
+                        <label for="Subject:">Subj:</label>
+                        <select name="Subj" id="Subject:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="Subj1">Cloud computing/Machine learning</option>
+                            <option value="Subj2">Neural network/Cyber Security</option>
+                            <option value="LAB">Project Lab</option>
+                            <option value="Subj3">Project Management</option>
+                            <option value="Subj4">LIBRARY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Subject Teacher:">Teacher:</label>
+                        <select name="Teacher" id="Subject Teacher:">
+                            <option value="Selectone" selected>....SelectOne....</option>
+                            <option value="T1">RG/AD</option>
+                            <option value="T2">SSR/AGH</option>
+                            <option value="LAB">KDA/NK</option>
+                            <option value="T3">ADB</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
